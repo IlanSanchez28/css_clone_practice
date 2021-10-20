@@ -4,3 +4,13 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
+
+#barra{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: tomato;
+    height: 100px;
+}
+
