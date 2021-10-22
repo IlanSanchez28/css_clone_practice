@@ -14,3 +14,11 @@ White: #FFF
     height: 100px;
 }
 
+#imgytexto div {
+
+    background-image: url(./../images/landing.jpg);
+    height: 1opx;
+    width: 100px;
+    
+}
+
