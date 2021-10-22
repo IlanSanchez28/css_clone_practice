@@ -12,13 +12,76 @@ White: #FFF
     justify-content: flex-end;
     background-color: tomato;
     height: 100px;
+    padding-bottom: 0px;
 }
 
 #imgytexto div {
-
+    
     background-image: url(./../images/landing.jpg);
-    height: 1opx;
-    width: 100px;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#imgytexto h1{
+
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    padding-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+#imgytexto p {
+
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+#Limbo{
+
+    text-align: center;
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-decoration: underline #00B172;
     
 }
+
+.Contenedor {
+
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Contenedor img{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.Contenedor h1{
+    color: #00B172;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+}
+
+.Contenedor p{
+    color: #1A1A1A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+}
+
+
 
